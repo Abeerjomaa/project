@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent{
+    box-sizing: border-box;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    background-color: #eee;
+
+}
+ .child{ 
+width: 50%;
+height: 50%;
+    border: 1px solid  gray;   
+}
+.son{
+    width: 400px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 85px 100px 85px  100px;
+}
+.son1{ width: 100px;
+    background-color: red;
+}
+.son2{ width: 100px;
+    background-color: white;
+}
+.son3{ width: 100px;
+    background-color: blue;
+}
+.son4{
+    width: 100px;
+    background-color: black;
+}
+.son5{
+    width: 100px;
+    background-color: yellow;
+}
+.son6{width: 100px;
+    background-color: red;
+}
+.sn{
+        width: 400px;
+        height: 160px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        margin:  85px 100px 85px 100px;
+    }
+.son7{
+    width: 300px;
+    height:160px;
+    background-color: red;
+ margin-left: 50px;
+}
+.son8{
+    width: 300px;
+    height: 160px;
+    background-color: white;
+    margin-left: 50px;
+}
+.son9{
+    width: 300px;
+    height: 160px;
+    background-color: black;
+    margin-left: 50px;
+}
+.son10{
+    width: 100px;
+    background-color: green;  
+}
+.son11{
+    width: 100px;
+    background-color: white;
+}
+
+.son12{
+    width: 100px;
+    background-color: red;
+}
+.start{
+    color: green;
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+}
+.s1{margin: 50px;}
+.s2{margin: 50px;}
+
+
+
+
